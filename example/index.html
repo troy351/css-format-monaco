@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Monaco CSS Formatter Example</title>
+    <style>
+      .container {
+        height: 600px;
+        border: 1px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="css">
+      <h2>CSS</h2>
+      <div class="container"></div>
+    </div>
+    <script src="../node_modules/monaco-editor/min/vs/loader.js"></script>
+    <script src="../dist/css-format-monaco.js"></script>
+    <script>
+      require.config({ paths: { vs: "../node_modules/monaco-editor/min/vs" } });
+      require(["vs/editor/editor.main"], function() {
+        cssFormatMonaco();
+
+        var containers = document.getElementsByClassName("container");
+
+        const editor = monaco.editor.create(containers[0], {
+          value: "body{font-size:20px;color:red;}",
+          language: "css"
+        });
+      });
+    </script>
+  </body>
+</html>
