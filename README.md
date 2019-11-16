@@ -8,11 +8,11 @@
 
 CSS Formatter Plugin for [monaco-editor](https://github.com/Microsoft/monaco-editor)
 
-**compatible with monaco-editor v0.12.0 and above**
+`CSS` / `LESS` / `SCSS` Support
 
-Source codes are well commented if you want to figure out how it works
+## Compatibility
 
-Support `CSS`, `LESS`, `SCSS`
+Compatible with Monaco Editor `v0.12.0` and above
 
 # Install
 
@@ -20,7 +20,7 @@ Support `CSS`, `LESS`, `SCSS`
 $ npm install css-format-monaco
 ```
 
-# Example
+# Usage
 
 ES Module
 
@@ -31,8 +31,11 @@ const dispose = cssFormatMonaco(
   // monaco-editor it self. If not provided, will use window.monaco instead.
   // This could make the plugin support both ESM and AMD loaded monaco-editor
   monaco,
-  // tabSize, default is 2
-  2
+  // options
+  // see full option list at https://github.com/beautify-web/js-beautify
+  {
+    tab_size: 2
+  }
 );
 
 // run it if you want to dispose this plugin

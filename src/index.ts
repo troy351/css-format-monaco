@@ -9,20 +9,13 @@ declare global {
   }
 }
 
-export default function cssFormatter(monaco = window.monaco, tabSize = 2) {
+export default function cssFormatter(monaco = window.monaco, beautyOption = {}) {
   if (!monaco) {
     console.error(
       "css-format-monaco: 'monaco' should be either declared on window or passed as first parameter"
     );
     return;
   }
-
-  const beautyOption = {
-    preserve_newlines: false,
-    newline_between_rules: true,
-    selector_separator_newline: true,
-    indent_size: tabSize
-  };
 
   const documentProvider = {
     provideDocumentFormattingEdits: (model: Monaco.editor.ITextModel) => {
