@@ -32,7 +32,7 @@ const dispose = cssFormatMonaco(
   // This could make the plugin support both ESM and AMD loaded monaco-editor
   monaco,
   // options
-  // see full option list at https://github.com/beautify-web/js-beautify
+  // see full option list at https://github.com/beautify-web/js-beautify#css--html
   {
     tab_size: 2
   }
