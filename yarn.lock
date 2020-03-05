@@ -46,9 +46,9 @@
     resolve "^1.14.2"
 
 "@rollup/plugin-typescript@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-3.0.0.tgz#9398fcca1cef67ac325fef19c28dece24c9a5263"
-  integrity sha512-O6915Ril3+Q0B4P898PULAcPFZfPuatEB/4nox7bnK48ekGrmamMYhMB5tOqWjihEWrw4oz/NL+c+/kS3Fk95g==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-typescript/-/plugin-typescript-3.1.0.tgz#cf2247a7757903c5c6905027b535732f9d772612"
+  integrity sha512-ChNRozzMydushztZ95eXwUBBMhctKyXU61TdDf8iZF02zkB2uhOH0Pe2lQmvyek7Fdh7OZQrj3Vt1mzJCT9+MA==
   dependencies:
     "@rollup/pluginutils" "^3.0.1"
     resolve "^1.14.1"
@@ -453,14 +453,7 @@ regjsparser@^0.6.0:
   dependencies:
     jsesc "~0.5.0"
 
-resolve@^1.11.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
-  integrity sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
-  dependencies:
-    path-parse "^1.0.6"
-
-resolve@^1.14.1, resolve@^1.14.2:
+resolve@^1.11.0, resolve@^1.14.1, resolve@^1.14.2:
   version "1.15.1"
   resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.15.1.tgz#27bdcdeffeaf2d6244b95bb0f9f4b4653451f3e8"
   integrity sha512-84oo6ZTtoTUpjgNEr5SJyzQhzL72gaRodsSfyxC/AXRvwu0Yse9H8eF9IpGo7b8YetZhlI6v7ZQ6bKBFV/6S7w==
