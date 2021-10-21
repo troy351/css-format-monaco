@@ -16,6 +16,10 @@
     "watch": "rollup -c --watch",
     "build": "rollup -c"
   },
+  "repository": {	
+    "type": "git",
+    "url": "https://github.com/troy351/css-format-monaco.git"
+  },
   "sideEffects": false,
   "license": "MIT",
   "author": "Troy",
