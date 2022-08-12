@@ -10,6 +10,10 @@ CSS Formatter Plugin for [monaco-editor](https://github.com/Microsoft/monaco-edi
 
 `CSS` / `LESS` / `SCSS` Support
 
+## Deprecated
+
+***CSS Formatter was builtin since monaco-editor@0.34.0***
+
 ## Compatibility
 
 Compatible with Monaco Editor `v0.12.0` and above
